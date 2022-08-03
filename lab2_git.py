@@ -83,8 +83,9 @@ def toss_coin():
         Hint: Using random.randint() function.
     """
     if(get_rand() % 2 == 0):
-        return 'Head'
-    return 'Tail'
+        return 'Tail'
+    else:
+        return 'Tail'
 
 
 def read_input():
